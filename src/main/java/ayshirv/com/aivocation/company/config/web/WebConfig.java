@@ -1,4 +1,4 @@
-package ayshirv.com.aivocation.config.web;
+package ayshirv.com.aivocation.company.config.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
