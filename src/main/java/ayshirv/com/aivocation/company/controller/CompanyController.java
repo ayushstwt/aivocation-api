@@ -1,11 +1,13 @@
 package ayshirv.com.aivocation.company.controller;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/companies")
+@RequiredArgsConstructor
 public class CompanyController {
 
     @GetMapping(version = "1.0.0")
