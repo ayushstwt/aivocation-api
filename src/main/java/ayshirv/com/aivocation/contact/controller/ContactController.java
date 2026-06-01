@@ -1,6 +1,5 @@
 package ayshirv.com.aivocation.contact.controller;
 
-
 import ayshirv.com.aivocation.contact.dto.ContactRequestDto;
 import ayshirv.com.aivocation.contact.service.IContactService;
 import lombok.RequiredArgsConstructor;
