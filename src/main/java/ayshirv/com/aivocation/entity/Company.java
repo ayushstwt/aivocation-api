@@ -1,4 +1,4 @@
-package ayshirv.com.aivocation.company.entity;
+package ayshirv.com.aivocation.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -11,7 +11,7 @@ import java.time.Instant;
 @Getter
 @Setter
 
-public class Company {
+public class Company extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -48,17 +48,5 @@ public class Company {
 
     @Column(name="WEBSITE",length = 1000)
     private String website;
-
-    @Column(name="CREATED_AT",nullable = false)
-    private Instant createdAt;
-
-    @Column(name="CREATED_BY",nullable = false,length = 20)
-    private String createdBy;
-
-    @Column(name="UPDATED_AT",nullable = false)
-    private Instant updatedAt;
-
-    @Column(name="UPDATED_BY",nullable = false)
-    private String updatedBy;
 
 }

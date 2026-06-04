@@ -1,7 +1,7 @@
 package ayshirv.com.aivocation.company.service.impl;
 
 import ayshirv.com.aivocation.company.dto.CompanyDto;
-import ayshirv.com.aivocation.company.entity.Company;
+import ayshirv.com.aivocation.entity.Company;
 import ayshirv.com.aivocation.company.repository.CompanyRepository;
 import ayshirv.com.aivocation.company.service.ICompanyService;
 import lombok.RequiredArgsConstructor;

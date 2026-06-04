@@ -1,7 +1,7 @@
 package ayshirv.com.aivocation.contact.service.impl;
 
 import ayshirv.com.aivocation.contact.dto.ContactRequestDto;
-import ayshirv.com.aivocation.contact.entity.Contact;
+import ayshirv.com.aivocation.entity.Contact;
 import ayshirv.com.aivocation.contact.repository.ContactRepository;
 import ayshirv.com.aivocation.contact.service.IContactService;
 import lombok.RequiredArgsConstructor;
